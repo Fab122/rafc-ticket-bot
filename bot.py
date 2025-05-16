@@ -1,7 +1,9 @@
 import asyncio
 from playwright.async_api import async_playwright
 import requests
-from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+import os
+TELEGRAM_BOT_TOKEN = os.environ["7713441397:AAE6YLp1nDx4wCWN2cGSrJW8sMI1bfGhmRg"]
+TELEGRAM_CHAT_ID = os.environ["815969427"]
 
 MATCH_URL = "https://tickets.rafc.be/fr-FR/events"
 
